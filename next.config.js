@@ -19,4 +19,11 @@ module.exports = withPlugins([
       disable: isDev,
     },
   }),
+  {
+    experimental: {
+      images: {
+          layoutRaw: true
+      }
+    },
+  }
 ]);
