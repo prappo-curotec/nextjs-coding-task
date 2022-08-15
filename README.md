@@ -9,8 +9,11 @@ This repository contains boilerplaite of nextjs and storybook.
 You need to make a section component like this [figma design](https://www.figma.com/file/jpKpFgNO9OFtr0fHMxZAmg/Test-Design?node-id=0%3A1) . If you are not able to view this file let us know.
 
 Things you need to do.
-
+Desktop View:
 ![image](https://user-images.githubusercontent.com/20820955/184721085-75e2eb16-2e39-45fb-b90d-eb314a18db98.png)
+
+Mobile View:
+![image](https://user-images.githubusercontent.com/20820955/184721341-3fb12e45-5915-4d5a-ab52-0e0c23453de6.png)
 
 
 - Make sure your component is pixel-perfect for both desktop and mobile.
