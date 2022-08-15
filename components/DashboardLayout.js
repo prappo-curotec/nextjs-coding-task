@@ -7,12 +7,14 @@ import Button from "./Button";
 export const Section = styled.div`
   background: #111111;
 `;
+Section.displayName = "div";
 
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 `;
+Container.displayName = "div";
 
 export const Box = styled.div`
   display: flex;
@@ -39,6 +41,7 @@ export const Box = styled.div`
     height: 100%;
   }
 `;
+Box.displayName = "div";
 
 export const BoxTitle = styled.h3`
   font-family: -OC Rey;
@@ -62,6 +65,7 @@ export const BoxTitle = styled.h3`
     font-size: 65px;
   }
 `;
+BoxTitle.displayName = "h3";
 
 export const BoxText = styled.p`
   font-family: Wigrum;
@@ -83,6 +87,7 @@ export const BoxText = styled.p`
     font-size: 18px;
   }
 `;
+BoxText.displayName = "p";
 
 const myLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
@@ -103,13 +108,13 @@ export default function DashboardLayout({ ...props }) {
           </Button>
         </Box>
         <Box id="second">
-            <Image
-              src={'/image.svg'}
-              width={800}
-              height={800}
-              loader={myLoader}
-              alt="loading..."
-            />
+          <Image
+            src={"/image.svg"}
+            width={800}
+            height={800}
+            loader={myLoader}
+            alt="loading..."
+          />
         </Box>
       </Container>
     </Section>
