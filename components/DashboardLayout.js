@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
-import px2vw from "./px";
+import px2vw from "../utils/px.js";
 import Button from "./Button";
 
 export const Section = styled.div`
