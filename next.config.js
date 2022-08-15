@@ -19,4 +19,11 @@ module.exports = withPlugins([
       disable: isDev,
     },
   }),
+  
 ]);
+module.exports = {
+  reactStrictMode: false
+}
+module.exports.images = {
+  loader: 'custom',
+}
