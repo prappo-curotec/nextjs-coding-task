@@ -84,9 +84,11 @@ export const BoxText = styled.p`
     font-size: 18px;
   }
 `;
+
 const myLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
 };
+
 export default function DashboardLayout({ ...props }) {
   return (
     <Section>
