@@ -37,7 +37,6 @@ export const Box = styled.div`
     width: ${px2vw(500)};
     min-height: ${px2vw(300)};
     height: 100%;
-    order: ${(id) => (id === "second" ? 1 : 2)};
   }
 `;
 
