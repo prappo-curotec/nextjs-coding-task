@@ -10,7 +10,8 @@ You need to make a section component like this [figma design](https://www.figma.
 
 Things you need to do.
 
-image.png
+![image](https://user-images.githubusercontent.com/20820955/184721085-75e2eb16-2e39-45fb-b90d-eb314a18db98.png)
+
 
 - Make sure your component is pixel-perfect for both desktop and mobile.
 - Follow coding standards.
