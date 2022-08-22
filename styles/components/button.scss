@@ -1,5 +1,5 @@
 .button {
-  width: 145px;
+  min-width: 145px;
   height: 48px;
   border: none;
   background-color: transparent;
@@ -28,4 +28,12 @@
 .button--medium {
 }
 .button--large {
+}
+
+.custom-button {
+  color: $c-white;
+  max-width: 286px;
+  height: 47px;
+  background: #656cff;
+  border-radius: 135px;
 }

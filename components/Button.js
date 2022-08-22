@@ -2,8 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import Cn from "classnames";
 
-export default function Button({ primary, onClick, children, ...props }) {
-  const isPrimary = primary ? "button--primary" : "button--secondary";
+export default function Button({
+  primary,
+  onClick,
+  children,
+  custom,
+  ...props
+}) {
+  const isPrimary = primary
+    ? "button--primary"
+    : custom
+    ? custom
+    : "button--secondary";
   const classNames = Cn("button", isPrimary);
 
   return (
